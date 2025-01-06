@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>URSA</title>
+  <link rel="icon" type="image/x-icon" href="static/images/bear_logo_white_bg.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              <img src="static/images/bear_logo_white_bg.png" alt="ursa Icon" style="vertical-align: -10px; width: 70px; height: 70px;">
+              URSA: <br>Understanding Chain-of-Thought Reasoning and Verifying in Multimodal Mathematics
+            </h1>
+            
+            <div class="is-size-5 publication-authors">
+              <div class="author-block">
+                  <span><a href="https://lrlbbzl.github.io/" target="_blank">
+                          Ruilin Luo</a></span><sup>➹*</sup>,
+                  <span>Zhuofan Zheng</span><sup>❀*</sup>,
+                  <span><a href="https://scholar.google.com/citations?user=plGpmz0AAAAJ&hl=en&oi=sra"
+                          tartet="_blank">Yifan Wang</a></span><sup>➹</sup>,
+                  <span><a href="https://scholar.google.com/citations?user=RxIMGGIAAAAJ&hl=en&oi=ao"
+                          tartet="_blank">Yiyao Yu</a></span><sup>➹</sup>,
+                  <br>
+                  <span><a href="https://scholar.google.com/citations?user=TB0b58kAAAAJ&hl=en"
+                    tartet="_blank">Xinzhe Ni</a></span><sup>➹</sup>,
+                  <span><a href="https://scholar.google.com/citations?user=DTEfT5EAAAAJ&hl=en&oi=ao"
+                      tartet="_blank">Zicheng Lin</a></span><sup>➹</sup>,
+                  <span>Jin Zeng</span><sup>❀&dagger;</sup>,  
+                  <span><a href="https://sites.google.com/view/iigroup-thu/home" tartet="_blank">
+                    Yujiu Yang</a></span><sup>➹&dagger;</sup>
+              </div>
+              <!-- Paper authors -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">x<sup>x</sup></a></span> -->
+          </div>
+
+                <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>➹</sup>Tsinghua University<sup> ❀</sup>ByteDance</span>
+
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution
+                            <sup>&dagger;</sup>Corresponding Author</small></span>
+                </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        🤗
+                      </span>
+                      <span>Model</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+
+                  <span class="link-block">
+                    <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      🤗
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+    <!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified" style="background-color: #f5f5f5; padding: 20px;">
+            <p>
+              Chain-of-thought (CoT) reasoning has been widely applied in the mathematical reasoning of large language models (LLMs). Recently, the derivative process supervision methods have sparked discussions on scaling capabilities during test time. However, in multimodal mathematics reasoning, the scarcity of high-quality CoT training data has hindered existing models from achieving high-precision CoT reasoning and limiting the realization of reasoning potential during test time. In this work, we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification. Also, we contribute a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively validate the state-of-the-art (SOTA) performance of the trained URSA-7B on multiple multimodal mathematics reasoning benchmarks. For test-time scaling, we introduce a data synthesis strategy that automatically generates process annotation datasets focusing on both interpretation and logic. By further training on URSA-7B, we aim to inherit CoT reasoning capabilities and achieve robust supervision abilities. The trained URSA-RM-7B acts as a verifier, effectively enhancing the performance of URSA-7B at test time in multimodal mathematics reasoning, and achieves superior results. Model weights and training data will be totally open-sourced.
+            </p>
+          </div>
+          <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px;">
+            <img src="static/images/radar_chart.png" alt="ursa comparison" style="width: 100%; height: auto;" />
+            <h2 class="subtitle" style="font-size: 16px; color: #888888; font-weight: normal;">
+              Figure 1: Comparison of reasoning abilities across different disciplines and under varying modalities of information. We use MathVista and MathVerse as benchmarks.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- End paper abstract -->
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop is-centered">
+          <div class="container">
+              <h2 class="title is-3 has-text-centered">Overview</h2>
+              <p>
+                In this work, we first perform vision-language alignment based on the collected 1M data. Subsequently, we train the multimodal mathematics reasoning model URSA-7B and the reward model URSA-RM-7B using the synthesized MMathCoT-1M and DualMath-1.1M datasets, respectively.
+              </p>
+              <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px; text-align: center;">
+                <img src="static/images/overflow.png" alt="ursa overflow" style="width: 100%; height: auto;" />
+                <h2 class="subtitle" style="font-size: 16px; color: #888888; font-weight: normal;">
+                  Figure 2: Overview of model training process.
+                </h2>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h2 class="title is-3">Data Synthesis</h2>
+          <div class="content has-text-justified" style="background-color: #f5f5f5; padding: 20px;">
+            <p>
+              <b>VL-alignment Data:</b> This portion of the data comes from collections, including MAVIS_Caption, Multimath-EN, and Geo170k-Alignment, totaling 960K.
+              <br>
+              <b>Math SFT Data:</b>We collect and categorize existing open-source data and apply different enhancement strategies: (1) Answer-only: This portion of the data is distilled by Gemini-1.5-Flash-002 to form CoT reasoning trajectories; (2) Analysis-formatted: This portion of the data is rewritten by Gemini-1.5-Flash-002 to enhance the diversity of CoT logical organization and language; (3) CoT-formatted: This portion of the data is standardized, for example, by rewriting structured mathematical language into a natural language format that combines thought processes with mathematical formulas, thereby leveraging NLU capabilities to better learn CoT reasoning. Finally, we obtain <b>MMathCoT-1M</b>.
+              <br>
+              <b>PRM Training Data:</b>The training data for PRM comes from process-labeled data from two perspectives: one from a binary error localization engine and the other from a misreading insertion engine. This allows PRM training in multimodal scenarios to focus simultaneously on logical correctness and clear image understanding. Following this approach, we organize <b>DualMath-1.1M</b>.
+            </p>
+          </div>
+          <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px;">
+            <img src="static/images/data_pie_crop.png" alt="ursa comparison" style="width: 100%; height: auto;" />
+            <h2 class="subtitle" style="font-size: 16px; color: #888888; font-weight: normal;">
+              Figure 3: Data sources used by the URSA-7B model during the VL-alignment and SFT phases.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3" id="leaderboard">Comparison on MathVista and MathVerse</h2>
+        <div class="content">
+          <p class="mt-3">Accuracy scores on the testmini subset of <b>MathVista</b> (1,000 examples) and <b>MathVerse</b> (4,728 examples).
+          </p>
+
+          <div id="testmini_leaderboard">
+            <table style="font-size: 13px; width: 100%; margin: 0 auto; border-collapse: collapse;">
+              <thead>
+                <tr style="border-top: 1px solid #ccc;">
+                  <th colspan="14"></th>
+              </tr>
+                  <tr>
+                      <th rowspan="2" style="vertical-align: middle; width: 240px;">Model</th>
+                      <th colspan="6" style="text-align: center;">MathVista</th>
+                      <th colspan="7" style="text-align: center;">MathVerse</th>
+                  </tr>
+                  <tr>
+                      <th style="text-align: center;">ALL</th>
+                      <th style="text-align: center;">GPS</th>
+                      <th style="text-align: center;">MWP</th>
+                      <th style="text-align: center;">FQA</th>
+                      <th style="text-align: center;">TQA</th>
+                      <th style="text-align: center;">VQA</th>
+                      <th style="text-align: center;">ALL</th>
+                      <th style="text-align: center;">TD</th>
+                      <th style="text-align: center;">TL</th>
+                      <th style="text-align: center;">TO</th>
+                      <th style="text-align: center;">VI</th>
+                      <th style="text-align: center;">VD</th>
+                      <th style="text-align: center;">VO</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr style="background-color: transparent;">
+                      <td colspan="14" style="text-align: center;"><strong>Baselines</strong></td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Random</td>
+                      <td style="text-align: center;">17.9</td>
+                      <td style="text-align: center;">21.6</td>
+                      <td style="text-align: center;">3.8</td>
+                      <td style="text-align: center;">18.2</td>
+                      <td style="text-align: center;">19.6</td>
+                      <td style="text-align: center;">26.3</td>
+                      <td style="text-align: center;">12.4</td>
+                      <td style="text-align: center;">12.4</td>
+                      <td style="text-align: center;">12.4</td>
+                      <td style="text-align: center;">12.4</td>
+                      <td style="text-align: center;">12.4</td>
+                      <td style="text-align: center;">12.4</td>
+                      <td style="text-align: center;">12.4</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Human</td>
+                      <td style="text-align: center;">60.3</td>
+                      <td style="text-align: center;">48.4</td>
+                      <td style="text-align: center;">73.0</td>
+                      <td style="text-align: center;">59.7</td>
+                      <td style="text-align: center;">63.2</td>
+                      <td style="text-align: center;">55.9</td>
+                      <td style="text-align: center;">64.9</td>
+                      <td style="text-align: center;">71.2</td>
+                      <td style="text-align: center;">70.9</td>
+                      <td style="text-align: center;">41.7</td>
+                      <td style="text-align: center;">61.4</td>
+                      <td style="text-align: center;">68.3</td>
+                      <td style="text-align: center;">66.7</td>
+                  </tr>
+                  <tr style="background-color: transparent;">
+                      <td colspan="14" style="text-align: center;"><strong>Closed-Source MLLMs</strong></td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>GPT-4o</td>
+                      <td style="text-align: center;">63.8</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>GPT-4V</td>
+                      <td style="text-align: center;">49.9</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">50.5</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">57.5</td>
+                      <td style="text-align: center;">43.1</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">65.2</td>
+                      <td style="text-align: center;">38.0</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">54.4</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">63.1</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">56.6</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">60.3</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">51.4</td>
+                      <td style="text-align: center;">32.8</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">50.3</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Gemini-1.5-002-Flash</td>
+                      <td style="text-align: center;">58.4</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Gemini-1.5-Pro</td>
+                      <td style="text-align: center;">63.9</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">35.3</td>
+                      <td style="text-align: center;">39.8</td>
+                      <td style="text-align: center;">34.7</td>
+                      <td style="text-align: center;">44.5</td>
+                      <td style="text-align: center;">32.0</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">36.8</td>
+                      <td style="text-align: center;">33.3</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Claude-3.5-Sonnet</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">67.7</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Qwen-VL-Plus</td>
+                      <td style="text-align: center;">43.3</td>
+                      <td style="text-align: center;">35.5</td>
+                      <td style="text-align: center;">31.2</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">54.6</td>
+                      <td style="text-align: center;">48.1</td>
+                      <td style="text-align: center; background-color: #DCF4E5;">51.4</td>
+                      <td style="text-align: center;">21.3</td>
+                      <td style="text-align: center;">26.0</td>
+                      <td style="text-align: center;">21.2</td>
+                      <td style="text-align: center;">25.2</td>
+                      <td style="text-align: center;">18.5</td>
+                      <td style="text-align: center;">19.1</td>
+                      <td style="text-align: center;">21.8</td>
+                  </tr>
+                  <tr style="background-color: transparent;">
+                      <td colspan="14" style="text-align: center;"><strong>Open-Source General MLLMs</strong></td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>mPLUG-Owl2-7B</td>
+                      <td style="text-align: center;">22.2</td>
+                      <td style="text-align: center;">23.6</td>
+                      <td style="text-align: center;">10.2</td>
+                      <td style="text-align: center;">22.7</td>
+                      <td style="text-align: center;">27.2</td>
+                      <td style="text-align: center;">27.9</td>
+                      <td style="text-align: center;">10.3</td>
+                      <td style="text-align: center;">11.6</td>
+                      <td style="text-align: center;">11.4</td>
+                      <td style="text-align: center;">13.8</td>
+                      <td style="text-align: center;">11.1</td>
+                      <td style="text-align: center;">9.4</td>
+                      <td style="text-align: center;">8.0</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>MiniGPT4-7B</td>
+                      <td style="text-align: center;">23.1</td>
+                      <td style="text-align: center;">26.0</td>
+                      <td style="text-align: center;">13.4</td>
+                      <td style="text-align: center;">18.6</td>
+                      <td style="text-align: center;">30.4</td>
+                      <td style="text-align: center;">30.2</td>
+                      <td style="text-align: center;">12.2</td>
+                      <td style="text-align: center;">12.3</td>
+                      <td style="text-align: center;">12.9</td>
+                      <td style="text-align: center;">13.4</td>
+                      <td style="text-align: center;">12.5</td>
+                      <td style="text-align: center;">14.8</td>
+                      <td style="text-align: center;">8.7</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>LLaVA-1.5-13B</td>
+                      <td style="text-align: center;">27.7</td>
+                      <td style="text-align: center;">22.7</td>
+                      <td style="text-align: center;">18.9</td>
+                      <td style="text-align: center;">23.8</td>
+                      <td style="text-align: center;">43.0</td>
+                      <td style="text-align: center;">30.2</td>
+                      <td style="text-align: center;">12.7</td>
+                      <td style="text-align: center;">17.1</td>
+                      <td style="text-align: center;">12.0</td>
+                      <td style="text-align: center;">22.6</td>
+                      <td style="text-align: center;">12.6</td>
+                      <td style="text-align: center;">12.7</td>
+                      <td style="text-align: center;">9.0</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>SPHINX-V2-13B</td>
+                      <td style="text-align: center;">36.7</td>
+                      <td style="text-align: center;">16.4</td>
+                      <td style="text-align: center;">23.1</td>
+                      <td style="text-align: center;">54.6</td>
+                      <td style="text-align: center;">41.8</td>
+                      <td style="text-align: center;">43.0</td>
+                      <td style="text-align: center;">16.1</td>
+                      <td style="text-align: center;">20.8</td>
+                      <td style="text-align: center;">14.1</td>
+                      <td style="text-align: center;">14.0</td>
+                      <td style="text-align: center;">16.4</td>
+                      <td style="text-align: center;">15.6</td>
+                      <td style="text-align: center;">16.2</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>LLaVA-NeXT-34B</td>
+                      <td style="text-align: center;">46.5</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">-</td>
+                      <td style="text-align: center;">34.6</td>
+                      <td style="text-align: center; background-color: #D2E6FA;">49.0</td>
+                      <td style="text-align: center; background-color: #D2E6FA;">37.6</td>
+                      <td style="text-align: center;">30.1</td>
+                      <td style="text-align: center;">35.2</td>
+                      <td style="text-align: center;">28.9</td>
+                      <td style="text-align: center;">22.4</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                    <td>InternLM-XComposer2-VL-7B</td>
+                    <td style="text-align: center;">57.6</td>
+                    <td style="text-align: center;">63.0</td>
+                    <td style="text-align: center; background-color: #D2E6FA;">73.7</td>
+                    <td style="text-align: center;">55.0</td>
+                    <td style="text-align: center;">56.3</td>
+                    <td style="text-align: center;">39.7</td>
+                    <td style="text-align: center;">25.9</td>
+                    <td style="text-align: center;">36.9</td>
+                    <td style="text-align: center;">28.3</td>
+                    <td style="text-align: center;">42.5</td>
+                    <td style="text-align: center;">20.1</td>
+                    <td style="text-align: center;">24.4</td>
+                    <td style="text-align: center;">19.8</td>
+                </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>Deepseek-VL</td>
+                      <td style="text-align: center;">34.9</td>
+                      <td style="text-align: center;">28.4</td>
+                      <td style="text-align: center;">55.9</td>
+                      <td style="text-align: center;">26.8</td>
+                      <td style="text-align: center;">32.9</td>
+                      <td style="text-align: center;">34.6</td>
+                      <td style="text-align: center;">19.3</td>
+                      <td style="text-align: center;">23.0</td>
+                      <td style="text-align: center;">23.2</td>
+                      <td style="text-align: center;">23.1</td>
+                      <td style="text-align: center;">20.2</td>
+                      <td style="text-align: center;">18.4</td>
+                      <td style="text-align: center;">11.8</td>
+                  </tr>
+                  <tr style="background-color: #f5f5f5;">
+                      <td>InternVL2-8B</td>
+                      <td style="text-align: center;">58.3</td>
+                      <td style="text-align: center;">62.0</td>
+                      <td style="text-align: center;">59.1</td>
+                      <td style="text-align: center; background-color: #D2E6FA;">58.7</td>
+                      <td style="text-align: center; background-color: #D2E6FA;">61.4</td>
+                      <td style="text-align: center; background-color: #D2E6FA;">49.7</td>
+                      <td style="text-align: center; background-color: #D2E6FA;">35.9</td>
+                      <td style="text-align: center;">39.0</td>
+                      <td style="text-align: center;">33.8</td>
+                      <td style="text-align: center;">36.0</td>
+                      <td style="text-align: center;">32.2</td>
+                      <td style="text-align: center;">30.9</td>
+                      <td style="text-align: center;">27.7</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>Qwen2-VL</td>
+                        <td style="text-align: center; background-color: #D2E6FA;">58.9</td>
+                        <td style="text-align: center;">40.9</td>
+                        <td style="text-align: center;">64.0</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">69.1</td>
+                        <td style="text-align: center;">60.1</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">58.1</td>
+                        <td style="text-align: center;">33.6</td>
+                        <td style="text-align: center;">37.4</td>
+                        <td style="text-align: center;">33.5</td>
+                        <td style="text-align: center;">35.0</td>
+                        <td style="text-align: center;">31.3</td>
+                        <td style="text-align: center;">30.3</td>
+                        <td style="text-align: center;">28.1</td>
+                    </tr>
+                    <tr style="background-color: transparent;">
+                        <td colspan="14" style="text-align: center;"><strong>Open-Source Math MLLMs</strong></td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>G-LLaVA-7B</td>
+                        <td style="text-align: center;">25.1</td>
+                        <td style="text-align: center;">48.7</td>
+                        <td style="text-align: center;">3.6</td>
+                        <td style="text-align: center;">19.1</td>
+                        <td style="text-align: center;">25.0</td>
+                        <td style="text-align: center;">28.7</td>
+                        <td style="text-align: center;">16.6</td>
+                        <td style="text-align: center;">20.9</td>
+                        <td style="text-align: center;">20.7</td>
+                        <td style="text-align: center;">21.1</td>
+                        <td style="text-align: center;">17.2</td>
+                        <td style="text-align: center;">14.6</td>
+                        <td style="text-align: center;">9.4</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>Math-LLaVA-13B</td>
+                        <td style="text-align: center;">46.6</td>
+                        <td style="text-align: center;">57.7</td>
+                        <td style="text-align: center;">56.5</td>
+                        <td style="text-align: center;">37.2</td>
+                        <td style="text-align: center;">51.3</td>
+                        <td style="text-align: center;">33.5</td>
+                        <td style="text-align: center;">22.9</td>
+                        <td style="text-align: center;">27.3</td>
+                        <td style="text-align: center;">24.9</td>
+                        <td style="text-align: center;">27.0</td>
+                        <td style="text-align: center;">24.5</td>
+                        <td style="text-align: center;">21.7</td>
+                        <td style="text-align: center;">16.1</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>Math-PUMA-Qwen2-7B</td>
+                        <td style="text-align: center;">47.9</td>
+                        <td style="text-align: center;">48.1</td>
+                        <td style="text-align: center;">68.3</td>
+                        <td style="text-align: center;">46.5</td>
+                        <td style="text-align: center;">46.2</td>
+                        <td style="text-align: center;">30.2</td>
+                        <td style="text-align: center;">33.6</td>
+                        <td style="text-align: center;">42.1</td>
+                        <td style="text-align: center;">35.0</td>
+                        <td style="text-align: center;">39.8</td>
+                        <td style="text-align: center;">33.4</td>
+                        <td style="text-align: center;">31.6</td>
+                        <td style="text-align: center;">26.0</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>Math-PUMA-DeepSeek-Math</td>
+                        <td style="text-align: center;">44.7</td>
+                        <td style="text-align: center;">39.9</td>
+                        <td style="text-align: center;">67.7</td>
+                        <td style="text-align: center;">42.8</td>
+                        <td style="text-align: center;">42.4</td>
+                        <td style="text-align: center;">31.3</td>
+                        <td style="text-align: center;">31.8</td>
+                        <td style="text-align: center;">43.4</td>
+                        <td style="text-align: center;">35.4</td>
+                        <td style="text-align: center; background-color: #D2E6FA;">47.5</td>
+                        <td style="text-align: center;">33.6</td>
+                        <td style="text-align: center;">31.6</td>
+                        <td style="text-align: center;">14.7</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>MAVIS-7B</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">64.1</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">35.2</td>
+                        <td style="text-align: center;">43.2</td>
+                        <td style="text-align: center;">37.2</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">34.1</td>
+                        <td style="text-align: center;">29.7</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">31.8</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>InfiMM-Math</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">34.5</td>
+                        <td style="text-align: center;">46.7</td>
+                        <td style="text-align: center;">32.4</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center; background-color: #D2E6FA;">38.1</td>
+                        <td style="text-align: center; background-color: #D2E6FA;">32.4</td>
+                        <td style="text-align: center;">15.8</td>
+                    </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>MultiMath-7B</td>
+                        <td style="text-align: center;">50.0</td>
+                        <td style="text-align: center; background-color: #D2E6FA;">66.8</td>
+                        <td style="text-align: center;">61.8</td>
+                        <td style="text-align: center;">40.1</td>
+                        <td style="text-align: center;">50.0</td>
+                        <td style="text-align: center;">33.0</td>
+                        <td style="text-align: center;">27.7</td>
+                        <td style="text-align: center;">34.8</td>
+                        <td style="text-align: center;">30.8</td>
+                        <td style="text-align: center;">35.3</td>
+                        <td style="text-align: center;">28.1</td>
+                        <td style="text-align: center;">25.9</td>
+                        <td style="text-align: center;">15.0</td>
+                    </tr>
+                    <tr style="background-color: transparent;">
+                      <td colspan="14" style="text-align: center;"><strong>Ours</strong></td>
+                  </tr>
+                    <tr style="background-color: #f5f5f5;">
+                        <td>URSA-7B</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">59.8</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">79.3</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">75.3</td>
+                        <td style="text-align: center;">44.6</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">63.9</td>
+                        <td style="text-align: center;">40.2</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">45.7</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">55.3</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">48.3</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">51.8</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">46.4</td>
+                        <td style="text-align: center; background-color: #FFDFDF;">43.9</td>
+                        <td style="text-align: center; background-color: #D2E6FA;">28.6</td>
+                    </tr>
+                    <tr style="background-color: #E0FFFF;">
+                        <td>∆ over SOTA Open-Source Math MLLMs</td>
+                        <td style="text-align: center;">+9.8</td>
+                        <td style="text-align: center;">+12.5</td>
+                        <td style="text-align: center;">+7.0</td>
+                        <td style="text-align: center;">-1.9</td>
+                        <td style="text-align: center;">+12.6</td>
+                        <td style="text-align: center;">+6.7</td>
+                        <td style="text-align: center;">+10.5</td>
+                        <td style="text-align: center;">+8.6</td>
+                        <td style="text-align: center;">+11.1</td>
+                        <td style="text-align: center;">+4.3</td>
+                        <td style="text-align: center;">+8.3</td>
+                        <td style="text-align: center;">+11.5</td>
+                        <td style="text-align: center;">-3.2</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3" id="leaderboard">Comparison on WE-MATH</h2>
+        <div class="content">
+          <p class="mt-3">Performance comparison on four-dimensional metrics for <b>WE-MATH</b> <i>testmini</i> reasoning evaluation.</p>
+
+          <div id="wemath_leaderboard">
+            <table style="font-size: 13px; width: 100%; margin: 0 auto; border-collapse: collapse;">
+              <thead>
+                <tr style="border-top: 1px solid #ccc;">
+                  <th colspan="12"></th>
+                </tr>
+                <tr>
+                  <th rowspan="2" style="vertical-align: middle; width: 240px;">Model</th>
+                  <th colspan="5" style="text-align: center;">Strict</th>
+                  <th colspan="5" style="text-align: center;">Loose</th>
+                </tr>
+                <tr>
+                  <th style="text-align: center;">AVG ↑</th>
+                  <th style="text-align: center;">IK ↓</th>
+                  <th style="text-align: center;">IG ↓</th>
+                  <th style="text-align: center;">CM ↑</th>
+                  <th style="text-align: center;">RM ↓</th>
+                  <th style="text-align: center;">AVG ↑</th>
+                  <th style="text-align: center;">IK ↓</th>
+                  <th style="text-align: center;">IG ↓</th>
+                  <th style="text-align: center;">CM ↑</th>
+                  <th style="text-align: center;">RM ↓</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="background-color: transparent;">
+                  <td colspan="12" style="text-align: center;"><strong>Closed-source MLLMs</strong></td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Qwen-VL-Max</td>
+                  <td style="text-align: center;">10.5</td>
+                  <td style="text-align: center;">65.1</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">7.6</td>
+                  <td style="text-align: center;">6.7</td>
+                  <td style="text-align: center;">75.5</td>
+                  <td style="text-align: center;">25.5</td>
+                  <td style="text-align: center;">65.1</td>
+                  <td style="text-align: center;">7.6</td>
+                  <td style="text-align: center;">21.7</td>
+                  <td style="text-align: center;">20.3</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Gemini-1.5-Pro</td>
+                  <td style="text-align: center;">26.4</td>
+                  <td style="text-align: center;">42.9</td>
+                  <td style="text-align: center;">11.2</td>
+                  <td style="text-align: center;">20.8</td>
+                  <td style="text-align: center;">54.8</td>
+                  <td style="text-align: center;">46.0</td>
+                  <td style="text-align: center;">42.9</td>
+                  <td style="text-align: center;">11.2</td>
+                  <td style="text-align: center;">40.4</td>
+                  <td style="text-align: center;">12.0</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>GPT-4V</td>
+                  <td style="text-align: center;">31.1</td>
+                  <td style="text-align: center;">39.8</td>
+                  <td style="text-align: center;">14.5</td>
+                  <td style="text-align: center;">23.8</td>
+                  <td style="text-align: center;">47.9</td>
+                  <td style="text-align: center;">51.4</td>
+                  <td style="text-align: center;">39.8</td>
+                  <td style="text-align: center;">14.5</td>
+                  <td style="text-align: center;">44.2</td>
+                  <td style="text-align: center;">3.3</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>GPT-4o</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">42.9</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">31.2</td>
+                  <td style="text-align: center;">15.2</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">35.2</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">34.2</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">60.6</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">31.2</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">15.2</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">53.0</td>
+                  <td style="text-align: center; background-color: #DCF4E5;">1.1</td>
+                </tr>
+                <tr style="background-color: transparent;">
+                  <td colspan="12" style="text-align: center;"><strong>Open-source General MLLMs</strong></td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>LLaVA-1.6-7B</td>
+                  <td style="text-align: center;">3.3</td>
+                  <td style="text-align: center;">78.3</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">2.5</td>
+                  <td style="text-align: center;">2.1</td>
+                  <td style="text-align: center;">89.1</td>
+                  <td style="text-align: center;">13.8</td>
+                  <td style="text-align: center;">78.3</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">2.5</td>
+                  <td style="text-align: center;">12.6</td>
+                  <td style="text-align: center;">34.7</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>LLaVA-1.6-13B</td>
+                  <td style="text-align: center;">5.2</td>
+                  <td style="text-align: center;">69.1</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">3.2</td>
+                  <td style="text-align: center;">3.6</td>
+                  <td style="text-align: center;">86.9</td>
+                  <td style="text-align: center;">22.0</td>
+                  <td style="text-align: center;">69.1</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">3.2</td>
+                  <td style="text-align: center;">20.4</td>
+                  <td style="text-align: center;">26.2</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>InternVL-Chat-V1.5-26B</td>
+                  <td style="text-align: center;">12.7</td>
+                  <td style="text-align: center;">56.4</td>
+                  <td style="text-align: center;">10.5</td>
+                  <td style="text-align: center;">7.4</td>
+                  <td style="text-align: center;">77.6</td>
+                  <td style="text-align: center;">31.0</td>
+                  <td style="text-align: center;">56.4</td>
+                  <td style="text-align: center;">10.5</td>
+                  <td style="text-align: center;">25.7</td>
+                  <td style="text-align: center;">22.4</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>LLaVA-NeXT-72B</td>
+                  <td style="text-align: center;">13.4</td>
+                  <td style="text-align: center;">58.9</td>
+                  <td style="text-align: center;">7.1</td>
+                  <td style="text-align: center;">9.9</td>
+                  <td style="text-align: center;">71.0</td>
+                  <td style="text-align: center;">31.5</td>
+                  <td style="text-align: center;">58.9</td>
+                  <td style="text-align: center;">7.1</td>
+                  <td style="text-align: center;">28.0</td>
+                  <td style="text-align: center;">17.9</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>DeepSeek-VL-7B</td>
+                  <td style="text-align: center;">6.3</td>
+                  <td style="text-align: center;">69.1</td>
+                  <td style="text-align: center;">4.6</td>
+                  <td style="text-align: center;">4.0</td>
+                  <td style="text-align: center;">84.8</td>
+                  <td style="text-align: center;">21.0</td>
+                  <td style="text-align: center;">69.1</td>
+                  <td style="text-align: center;">4.6</td>
+                  <td style="text-align: center;">18.7</td>
+                  <td style="text-align: center;">29.0</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Phi3-Vision-4.2B</td>
+                  <td style="text-align: center;">10.6</td>
+                  <td style="text-align: center;">58.9</td>
+                  <td style="text-align: center;">9.0</td>
+                  <td style="text-align: center;">6.1</td>
+                  <td style="text-align: center;">81.1</td>
+                  <td style="text-align: center;">29.8</td>
+                  <td style="text-align: center;">58.9</td>
+                  <td style="text-align: center;">9.0</td>
+                  <td style="text-align: center;">25.3</td>
+                  <td style="text-align: center;">21.3</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>GLM-4V-9B</td>
+                  <td style="text-align: center;">14.9</td>
+                  <td style="text-align: center;">53.0</td>
+                  <td style="text-align: center;">9.5</td>
+                  <td style="text-align: center;">10.1</td>
+                  <td style="text-align: center;">73.1</td>
+                  <td style="text-align: center;">35.1</td>
+                  <td style="text-align: center;">53.0</td>
+                  <td style="text-align: center;">9.5</td>
+                  <td style="text-align: center;">30.3</td>
+                  <td style="text-align: center;">19.3</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>InternLM-XComposer2-VL-7B</td>
+                  <td style="text-align: center;">12.7</td>
+                  <td style="text-align: center;">56.4</td>
+                  <td style="text-align: center;">10.5</td>
+                  <td style="text-align: center;">7.4</td>
+                  <td style="text-align: center;">77.6</td>
+                  <td style="text-align: center;">31.0</td>
+                  <td style="text-align: center;">56.4</td>
+                  <td style="text-align: center;">10.5</td>
+                  <td style="text-align: center;">25.7</td>
+                  <td style="text-align: center;">22.4</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>InternVL2-8B</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">26.6</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">45.5</td>
+                  <td style="text-align: center;">13.5</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">19.8</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">51.6</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">44.9</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">45.5</td>
+                  <td style="text-align: center;">13.5</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">38.1</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">7.0</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Qwen2-VL (7B)</td>
+                  <td style="text-align: center;">25.6</td>
+                  <td style="text-align: center;">47.1</td>
+                  <td style="text-align: center;">14.7</td>
+                  <td style="text-align: center;">18.3</td>
+                  <td style="text-align: center;">52.2</td>
+                  <td style="text-align: center;">43.0</td>
+                  <td style="text-align: center;">47.1</td>
+                  <td style="text-align: center;">14.7</td>
+                  <td style="text-align: center;">35.6</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">7.0</td>
+                </tr>
+                <tr style="background-color: transparent;">
+                  <td colspan="12" style="text-align: center;"><strong>Open-source Math MLLMs</strong></td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>G-LLaVA-13B</td>
+                  <td style="text-align: center;">6.5</td>
+                  <td style="text-align: center;">64.2</td>
+                  <td style="text-align: center;">4.6</td>
+                  <td style="text-align: center;">4.2</td>
+                  <td style="text-align: center;">86.6</td>
+                  <td style="text-align: center;">22.3</td>
+                  <td style="text-align: center;">64.2</td>
+                  <td style="text-align: center;">4.6</td>
+                  <td style="text-align: center;">20.0</td>
+                  <td style="text-align: center;">36.0</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Math-LLaVA-13B</td>
+                  <td style="text-align: center;">11.1</td>
+                  <td style="text-align: center;">62.1</td>
+                  <td style="text-align: center;">3.6</td>
+                  <td style="text-align: center;">9.3</td>
+                  <td style="text-align: center;">72.8</td>
+                  <td style="text-align: center;">31.3</td>
+                  <td style="text-align: center;">62.1</td>
+                  <td style="text-align: center;">3.6</td>
+                  <td style="text-align: center;">29.5</td>
+                  <td style="text-align: center;">13.9</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Math-PUMA-Qwen2-7B</td>
+                  <td style="text-align: center;">19.2</td>
+                  <td style="text-align: center;">47.8</td>
+                  <td style="text-align: center;">13.7</td>
+                  <td style="text-align: center;">12.4</td>
+                  <td style="text-align: center;">67.8</td>
+                  <td style="text-align: center;">41.0</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">47.8</td>
+                  <td style="text-align: center;">13.7</td>
+                  <td style="text-align: center;">34.1</td>
+                  <td style="text-align: center; background-color: #D2E6FA;">11.4</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>Math-PUMA-DeepSeek-Math-7B</td>
+                  <td style="text-align: center;">15.6</td>
+                  <td style="text-align: center;">56.0</td>
+                  <td style="text-align: center;">7.2</td>
+                  <td style="text-align: center;">12.0</td>
+                  <td style="text-align: center;">67.4</td>
+                  <td style="text-align: center;">35.8</td>
+                  <td style="text-align: center;">56.0</td>
+                  <td style="text-align: center;">7.2</td>
+                  <td style="text-align: center;">32.2</td>
+                  <td style="text-align: center;">12.4</td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>InfiMM-Math</td>
+                  <td style="text-align: center;">20.6</td>
+                  <td style="text-align: center;">48.8</td>
+                  <td style="text-align: center;">12.2</td>
+                  <td style="text-align: center;">15.2</td>
+                  <td style="text-align: center;">61.7</td>
+                  <td style="text-align: center;">-</td>
+                  <td style="text-align: center;">-</td>
+                  <td style="text-align: center;">-</td>
+                  <td style="text-align: center;">-</td>
+                  <td style="text-align: center;">-</td>
+                </tr>
+                <tr style="background-color: transparent;">
+                  <td colspan="12" style="text-align: center;"><strong>Ours</strong></td>
+                </tr>
+                <tr style="background-color: #f5f5f5;">
+                  <td>URSA-7B</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">32.2</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">37.5</td>
+                  <td style="text-align: center;">10.7</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">26.9</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">48.2</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">53.5</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">37.5</td>
+                  <td style="text-align: center;">10.7</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">48.2</td>
+                  <td style="text-align: center; background-color: #FFDFDF;">7.0</td>
+                </tr>
+                <tr style="background-color: #E0FFFF;">
+                  <td>∆ over SOTA Open-Source Math MLLMs</td>
+                  <td style="text-align: center;">+11.6</td>
+                  <td style="text-align: center;">+10.3</td>
+                  <td style="text-align: center;">-7.1</td>
+                  <td style="text-align: center;">+11.7</td>
+                  <td style="text-align: center;">+13.5</td>
+                  <td style="text-align: center;">+12.5</td>
+                  <td style="text-align: center;">+10.3</td>
+                  <td style="text-align: center;">-7.1</td>
+                  <td style="text-align: center;">+14.1</td>
+                  <td style="text-align: center;">+4.4</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Test-time Scaling</h2>
+        <div class="content has-text-justified" style="background-color: transparent; padding: 20px;">
+          <p>
+            <b>High Diversity: </b>We show the Pass@N performance of URSA-7B below. With only 4 time sampling, URSA-7B can achieve a pass rate of 90.9 on the GPS task of Mathvista. The Pass@64 performance on MathVista is 97.1, indicating that URSA-7B already has substantial coverage of geometric problem-solving strategies. On the MathVerse dataset, URSA-7B also demonstrates a high upper limit of reasoning capability.
+            <br>
+            We also compare the Pass@N of Multimath-7B and find that URSA-7B has a significantly higher upper limit in reasoning performance than Multimath-7B. On MathVerse, the Pass@64 of URSA-7B shows a relative improvement of 74.2% compared to single inference, while Multimath-7B only shows an improvement of 58.5%.
+          </p>
+          <p>
+            <b>Great verifier: </b>The accuracy significantly surpasses self-consistency, making it a better test-time scaling reward model tool for multimodal mathematics reasoning.
+          </p>
+          <p>
+            <b>Extensible OOD Capability:</b> We choose Multimath as the base model, as it is relatively stable in performing CoT solutions after mathematics instruction tuning. We find that URSA-RM-7B effectively serves as a verifier for Multimath's CoT solutions, surpassing the performance of self-consistency.
+          </p>
+        </div>
+        <!-- <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p> -->
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-3">
+              <div class="content has-text-centered">
+                  <img src="static/images/prm_mathvista_crop.png" alt="Test-time scaling on MathVista-GPS" style="width: 70%; height: auto;" />
+                  <p>Figure 4: Test-time scaling on MathVista-GPS.</p>
+              </div>
+          </div>
+          <div class="box m-3">
+              <div class="content has-text-centered">
+                  <img src="static/images/prm_mathverse_crop.png" alt="Test-time scaling on MathVerse" style="width: 70%; height: auto;" />
+                  <p>Figure 5: Test-time scaling on MathVerse.</p>
+              </div>
+          </div>
+          <div class="box m-3">
+            <div class="content has-text-centered">
+                <img src="static/images/ood_verifier.png" alt="ood verifier" style="width: 65%; height: auto;" />
+                <p>Figure 6: OOD performance when URSA-RM-7B works on Multimath-7B.</p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        Your image here
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        Your image here
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        Your image here
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      Your image here
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      Paper video.
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            Youtube embed code here
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            Your video file here
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            Your video file here
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            Your video file here
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <!-- You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>. -->
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
