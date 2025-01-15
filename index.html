@@ -175,7 +175,7 @@
 </section>
 
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<!-- <section class="section hero is-light">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
@@ -196,7 +196,39 @@
       </div>
     </div>
   </div>
+</section> -->
+
+<section class="section hero is-light">
+  <div class="container">
+
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified" style="background-color: #f5f5f5; padding: 20px;">
+          <p>
+            Chain-of-thought (CoT) reasoning has been widely applied in the mathematical reasoning of large language models (LLMs). Recently, the derivative process supervision methods have sparked discussions on scaling capabilities during test time. However, in multimodal mathematics reasoning, the scarcity of high-quality CoT training data has hindered existing models from achieving high-precision CoT reasoning and limiting the realization of reasoning potential during test time. In this work, we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification. Also, we contribute a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively validate the state-of-the-art (SOTA) performance of the trained URSA-7B on multiple multimodal mathematics reasoning benchmarks. For test-time scaling, we introduce a data synthesis strategy that automatically generates process annotation datasets focusing on both interpretation and logic. By further training on URSA-7B, we aim to inherit CoT reasoning capabilities and achieve robust supervision abilities. The trained URSA-RM-7B acts as a verifier, effectively enhancing the performance of URSA-7B at test time in multimodal mathematics reasoning, and achieves superior results. Model weights and training data will be totally open-sourced.
+          </p>
+        </div>
+        <!-- <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p> -->
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-2">
+              <div class="content has-text-centered">
+                  <img src="static/images/overall_comparison.png" alt="Test-time scaling on MathVista-GPS" style="width: 70%; height: auto;" />
+                  <p>Figure 1: Overall performance comparison on six commonly used multimodal mathematical benchmarks.</p>
+              </div>
+          </div>
+          <div class="box m-2">
+              <div class="content has-text-centered">
+                  <img src="static/images/radar_chart.png" alt="Test-time scaling on MathVerse" style="width: 70%; height: auto;" />
+                  <p>Figure 2: Comparison of reasoning abilities across different disciplines and under varying modalities of information. We use MathVista and MathVerse as benchmarks.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 
 
@@ -205,14 +237,14 @@
   <div class="hero-body">
       <div class="container is-max-desktop is-centered">
           <div class="container">
-              <h2 class="title is-3 has-text-centered">Overview</h2>
+              <h2 class="title is-2 has-text-centered">Overview</h2>
               <p>
                 In this work, we first perform vision-language alignment based on the collected 1M data. Subsequently, we train the multimodal mathematics reasoning model URSA-7B and the reward model URSA-RM-7B using the synthesized MMathCoT-1M and DualMath-1.1M datasets, respectively.
               </p>
               <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px; text-align: center;">
                 <img src="static/images/overflow.png" alt="ursa overflow" style="width: 100%; height: auto;" />
                 <h2 class="subtitle" style="font-size: 16px; color: #888888; font-weight: normal;">
-                  Figure 2: Overview of model training process.
+                  Figure 3: Overview of model training process.
                 </h2>
               </div>
           </div>
@@ -225,7 +257,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h2 class="title is-3">Data Synthesis</h2>
+          <h2 class="title is-2">Data Synthesis</h2>
           <div class="content has-text-justified" style="background-color: #f5f5f5; padding: 20px;">
             <p>
               <b>VL-alignment Data:</b> This portion of the data comes from collections, including MAVIS_Caption, Multimath-EN, and Geo170k-Alignment, totaling 960K.
@@ -238,7 +270,7 @@
           <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px;">
             <img src="static/images/data_pie_crop.png" alt="ursa comparison" style="width: 100%; height: auto;" />
             <h2 class="subtitle" style="font-size: 16px; color: #888888; font-weight: normal;">
-              Figure 3: Data sources used by the URSA-7B model during the VL-alignment and SFT phases.
+              Figure 4: Data sources used by the URSA-7B model during the VL-alignment and SFT phases.
             </h2>
           </div>
         </div>
@@ -251,7 +283,7 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3" id="leaderboard">Comparison on MathVista and MathVerse</h2>
+        <h2 class="title is-2" id="leaderboard">Comparison on MathVista and MathVerse</h2>
         <div class="content">
           <p class="mt-3">Accuracy scores on the testmini subset of <b>MathVista</b> (1,000 examples) and <b>MathVerse</b> (4,728 examples).
           </p>
@@ -760,7 +792,7 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3" id="leaderboard">Comparison on WE-MATH</h2>
+        <h2 class="title is-2" id="leaderboard">Comparison on WE-MATH</h2>
         <div class="content">
           <p class="mt-3">Performance comparison on four-dimensional metrics for <b>WE-MATH</b> <i>testmini</i> reasoning evaluation.</p>
 
@@ -1100,7 +1132,7 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3" id="mathvision">Performance Comparison on Math-Vision</h2>
+        <h2 class="title is-2" id="mathvision">Performance Comparison on Math-Vision</h2>
         <div class="content">
           <p class="mt-3">Performance comparison of different MLLMs on <b>Math-Vision</b> across various categories.</p>
 
@@ -1565,7 +1597,7 @@
 
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-4">Test-time Scaling</h2>
+        <h2 class="title is-2">Test-time Scaling</h2>
         <div class="content has-text-justified" style="background-color: transparent; padding: 20px;">
           <p>
             <b>High Diversity: </b>We show the Pass@N performance of URSA-7B below. With only 4 time sampling, URSA-7B can achieve a pass rate of 90.9 on the GPS task of Mathvista. The Pass@64 performance on MathVista is 97.1, indicating that URSA-7B already has substantial coverage of geometric problem-solving strategies. On the MathVerse dataset, URSA-7B also demonstrates a high upper limit of reasoning capability.
@@ -1584,25 +1616,25 @@
           <div class="box m-4">
               <div class="content has-text-centered">
                   <img src="static/images/prm_mathvista_crop.png" alt="Test-time scaling on MathVista-GPS" style="width: 70%; height: auto;" />
-                  <p>Figure 4: Test-time scaling on MathVista-GPS.</p>
+                  <p>Figure 5: Test-time scaling on MathVista-GPS.</p>
               </div>
           </div>
           <div class="box m-4">
               <div class="content has-text-centered">
                   <img src="static/images/prm_mathverse_crop.png" alt="Test-time scaling on MathVerse" style="width: 70%; height: auto;" />
-                  <p>Figure 5: Test-time scaling on MathVerse.</p>
+                  <p>Figure 6: Test-time scaling on MathVerse.</p>
               </div>
           </div>
           <div class="box m-4">
             <div class="content has-text-centered">
                 <img src="static/images/prm_math-vision.png" alt="Test-time scaling on Math-Vision" style="width: 70%; height: auto;" />
-                <p>Figure 6: Test-time scaling on Math-Vision.</p>
+                <p>Figure 7: Test-time scaling on Math-Vision.</p>
             </div>
         </div>
           <div class="box m-4">
             <div class="content has-text-centered">
                 <img src="static/images/ood_verifier.png" alt="ood verifier" style="width: 65%; height: auto;" />
-                <p>Figure 7: OOD performance when URSA-RM-7B works on Multimath-7B.</p>
+                <p>Figure 8: OOD performance when URSA-RM-7B works on Multimath-7B.</p>
             </div>
         </div>
         </div>
