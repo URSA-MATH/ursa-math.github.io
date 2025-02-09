@@ -200,7 +200,7 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified" style="background-color: #f5f5f5; padding: 20px;">
             <p>
-              Chain-of-thought (CoT) reasoning has been widely applied in the mathematical reasoning of large language models (LLMs). Recently, the derivative process supervision methods have sparked discussions on scaling capabilities during test time. However, in multimodal mathematics reasoning, the scarcity of high-quality CoT training data has hindered existing models from achieving high-precision CoT reasoning and limiting the realization of reasoning potential during test time. In this work, we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification. Also, we contribute a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively validate the state-of-the-art (SOTA) performance of the trained URSA-7B on multiple multimodal mathematics reasoning benchmarks. For test-time scaling, we introduce a data synthesis strategy that automatically generates process annotation datasets focusing on both interpretation and logic. By further training on URSA-7B, we aim to inherit CoT reasoning capabilities and achieve robust supervision abilities. The trained URSA-RM-7B acts as a verifier, effectively enhancing the performance of URSA-7B at test time in multimodal mathematics reasoning, and achieves superior results. Model weights and training data will be totally open-sourced.
+              Chain-of-thought (CoT) reasoning has been widely applied in the mathematical reasoning of large language models (LLMs). Recently, the derivative process supervision methods have sparked discussions on scaling capabilities during test time. However, in multimodal mathematics reasoning, the scarcity of high-quality CoT training data has hindered existing models from achieving high-precision CoT reasoning and limiting the realization of reasoning potential during test time. In this work, we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification. Also, we contribute a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively validate the state-of-the-art (SOTA) performance of the trained URSA-8B on multiple multimodal mathematics reasoning benchmarks. For test-time scaling, we introduce a data synthesis strategy that automatically generates process annotation datasets focusing on both interpretation and logic. By further training on URSA-8B, we aim to inherit CoT reasoning capabilities and achieve robust supervision abilities. The trained URSA-RM-8B acts as a verifier, effectively enhancing the performance of URSA-8B at test time in multimodal mathematics reasoning, and achieves superior results. Model weights and training data will be totally open-sourced.
             </p>
           </div>
           <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px;">
@@ -223,7 +223,7 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified" style="background-color: #f5f5f5; padding: 20px;">
           <p>
-            Chain-of-thought (CoT) reasoning has been widely applied in the mathematical reasoning of large language models (LLMs). Recently, the derivative process supervision methods have sparked discussions on scaling capabilities during test time. However, in multimodal mathematics reasoning, the scarcity of high-quality CoT training data has hindered existing models from achieving high-precision CoT reasoning and limiting the realization of reasoning potential during test time. In this work, we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification. Also, we contribute a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively validate the state-of-the-art (SOTA) performance of the trained URSA-7B on multiple multimodal mathematics reasoning benchmarks. For test-time scaling, we introduce a data synthesis strategy that automatically generates process annotation datasets focusing on both interpretation and logic. By further training on URSA-7B, we aim to inherit CoT reasoning capabilities and achieve robust supervision abilities. The trained URSA-RM-7B acts as a verifier, effectively enhancing the performance of URSA-7B at test time in multimodal mathematics reasoning, and achieves superior results. Model weights and training data will be totally open-sourced.
+            Chain-of-thought (CoT) reasoning has been widely applied in the mathematical reasoning of large language models (LLMs). Recently, the derivative process supervision methods have sparked discussions on scaling capabilities during test time. However, in multimodal mathematics reasoning, the scarcity of high-quality CoT training data has hindered existing models from achieving high-precision CoT reasoning and limiting the realization of reasoning potential during test time. In this work, we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification. Also, we contribute a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively validate the state-of-the-art (SOTA) performance of the trained URSA-8B on multiple multimodal mathematics reasoning benchmarks. For test-time scaling, we introduce a data synthesis strategy that automatically generates process annotation datasets focusing on both interpretation and logic. By further training on URSA-8B, we aim to inherit CoT reasoning capabilities and achieve robust supervision abilities. The trained URSA-RM-8B acts as a verifier, effectively enhancing the performance of URSA-8B at test time in multimodal mathematics reasoning, and achieves superior results. Model weights and training data will be totally open-sourced.
           </p>
         </div>
         <!-- <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p> -->
@@ -256,7 +256,7 @@
           <div class="container">
               <h2 class="title is-2 has-text-centered">Overview</h2>
               <p>
-                In this work, we first perform vision-language alignment based on the collected 1M data. Subsequently, we train the multimodal mathematics reasoning model URSA-7B and the reward model URSA-RM-7B using the synthesized MMathCoT-1M and DualMath-1.1M datasets, respectively.
+                In this work, we first perform vision-language alignment based on the collected 1M data. Subsequently, we train the multimodal mathematics reasoning model URSA-8B and the reward model URSA-RM-8B using the synthesized MMathCoT-1M and DualMath-1.1M datasets, respectively.
               </p>
               <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px; text-align: center;">
                 <img src="static/images/overflow.png" alt="ursa overflow" style="width: 100%; height: auto;" />
@@ -287,7 +287,7 @@
           <div class="item" style="background-color: #ffffff; padding: 20px; margin-top: 20px;">
             <img src="static/images/data_pie_crop.png" alt="ursa comparison" style="width: 100%; height: auto;" />
             <h2 class="subtitle" style="font-size: 16px; color: #888888; font-weight: normal;">
-              Figure 4: Data sources used by the URSA-7B model during the VL-alignment and SFT phases.
+              Figure 4: Data sources used by the URSA-8B model during the VL-alignment and SFT phases.
             </h2>
           </div>
         </div>
@@ -765,7 +765,7 @@
                       <td colspan="14" style="text-align: center;"><strong>Ours</strong></td>
                   </tr>
                     <tr style="background-color: #f5f5f5;">
-                        <td>URSA-7B</td>
+                        <td>URSA-8B</td>
                         <td style="text-align: center; background-color: #D2E6FA;">59.8</td>
                         <td style="text-align: center; background-color: #FFDFDF;">79.3</td>
                         <td style="text-align: center; background-color: #FFDFDF;">75.3</td>
@@ -1111,7 +1111,7 @@
                   <td colspan="12" style="text-align: center;"><strong>Ours</strong></td>
                 </tr>
                 <tr style="background-color: #f5f5f5;">
-                  <td>URSA-7B</td>
+                  <td>URSA-8B</td>
                   <td style="text-align: center; background-color: #FFDFDF;">32.2</td>
                   <td style="text-align: center; background-color: #FFDFDF;">37.5</td>
                   <td style="text-align: center;">10.7</td>
@@ -1560,7 +1560,7 @@
                   <td colspan="19" style="text-align: center;"><strong>Ours</strong></td>
                 </tr>
                 <tr style="background-color: #f5f5f5;">
-                  <td>URSA-7B</td>
+                  <td>URSA-8B</td>
                   <td style="background-color: #FFDFDF;">26.2</td>
                   <td style="background-color: #FFDFDF;">28.1</td>
                   <td style="background-color: #FFDFDF;">26.2</td>
@@ -1617,15 +1617,15 @@
         <h2 class="title is-2">Test-time Scaling</h2>
         <div class="content has-text-justified" style="background-color: transparent; padding: 20px;">
           <p>
-            <b>High Diversity: </b>We show the Pass@N performance of URSA-7B below. With only 4 time sampling, URSA-7B can achieve a pass rate of 90.9 on the GPS task of Mathvista. The Pass@64 performance on MathVista is 97.1, indicating that URSA-7B already has substantial coverage of geometric problem-solving strategies. On the MathVerse dataset, URSA-7B also demonstrates a high upper limit of reasoning capability.
+            <b>High Diversity: </b>We show the Pass@N performance of URSA-8B below. With only 4 time sampling, URSA-8B can achieve a pass rate of 90.9 on the GPS task of Mathvista. The Pass@64 performance on MathVista is 97.1, indicating that URSA-8B already has substantial coverage of geometric problem-solving strategies. On the MathVerse dataset, URSA-8B also demonstrates a high upper limit of reasoning capability.
             <br>
-            We also compare the Pass@N of Multimath-7B and find that URSA-7B has a significantly higher upper limit in reasoning performance than Multimath-7B. On MathVerse, the Pass@64 of URSA-7B shows a relative improvement of 74.2% compared to single inference, while Multimath-7B only shows an improvement of 58.5%.
+            We also compare the Pass@N of Multimath-7B and find that URSA-8B has a significantly higher upper limit in reasoning performance than Multimath-7B. On MathVerse, the Pass@64 of URSA-8B shows a relative improvement of 74.2% compared to single inference, while Multimath-7B only shows an improvement of 58.5%.
           </p>
           <p>
             <b>Great verifier: </b>The accuracy significantly surpasses self-consistency, making it a better test-time scaling reward model tool for multimodal mathematics reasoning.
           </p>
           <p>
-            <b>Extensible OOD Capability:</b> We choose Multimath as the base model, as it is relatively stable in performing CoT solutions after mathematics instruction tuning. We find that URSA-RM-7B effectively serves as a verifier for Multimath's CoT solutions, surpassing the performance of self-consistency.
+            <b>Extensible OOD Capability:</b> We choose Multimath as the base model, as it is relatively stable in performing CoT solutions after mathematics instruction tuning. We find that URSA-RM-8B effectively serves as a verifier for Multimath's CoT solutions, surpassing the performance of self-consistency.
           </p>
         </div>
         <!-- <p>One example for each reasoning skill required in <span class="mathvista">MathVista</span></p> -->
@@ -1651,7 +1651,7 @@
           <div class="box m-4">
             <div class="content has-text-centered">
                 <img src="static/images/ood_verifier.png" alt="ood verifier" style="width: 65%; height: auto;" />
-                <p>Figure 8: OOD performance when URSA-RM-7B works on Multimath-7B.</p>
+                <p>Figure 8: OOD performance when URSA-RM-8B works on Multimath-7B.</p>
             </div>
         </div>
         </div>
